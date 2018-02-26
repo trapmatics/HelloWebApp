@@ -1,0 +1,3 @@
+Contact_Name: {{ contact_name|striptags }}
+Email: {{ contact_email|striptags }}
+Context: {{ form_content|striptags }}
